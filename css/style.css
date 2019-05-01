@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans:400,700');
+* {box-sizing: border-box;}
+*:focus {outline: none;}
+ol,
+ul {
+    list-style: none;
+}
+*:before,
+*:after {
+    content: '';
+    content: none;
+}
+*.clearfix:after, .clearfix:before {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+    font-size: 0;
+	content: " ";
+	clear: both;
+	display: inline-block;
+}
+html,
+body {
+    
+    /*font-family: 'Aleo', serif;*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e8e8e8;
+    font-size: 16px;
+}
+.conteiner {
+    width: 95%;
+    margin: 0 auto;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+/*----------------------Header------------------------------*/
+.section1 {
+    background: #f2f2f5 url(../img/header.jpg) no-repeat center center;
+    display: block;
+    background-size: cover;
+    min-height: 100%;
+    padding-top: 45px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.section1_center h2{
+           font-size: 48px;
+           font-family: 'Josefin Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 275px;
+        margin-bottom: 20px;
+}
+.section1_center p{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        letter-spacing: .3em;
+}
+.forma-Search{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.forma-Search input{
+        background-color: rgb(255, 255, 255);
+        width: 500px;
+        height: 60px;
+        font-size: 14px;
+        letter-spacing: .2em;
+            color: rgb(153, 153, 153);
+            text-align: center;
+}
+.forma-Search button{
+        border-width: 2px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        background-color: rgb(84, 116, 253);
+        width: 146px;
+        height: 60px;
+        font-size: 14px;
+        font-family: 'Aleo', serif;
+        letter-spacing: .1em;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.forma-Search button:hover{
+    background-color: #87c4f2;
+    cursor: pointer;
+
+}
+svg.poisk{
+    margin-left: 15px;
+}
+.section1_scrool{
+    margin-top: 115px;
+}
+.section1_scrool a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+       letter-spacing: .2em;
+        text-align: center;
+        text-decoration: none;
+}
+svg.scrool_btn{
+    margin-top: 15px;
+}
+.section1_menu {
+    background-color: #5474fd;
+    height: 80px;
+}
+.section1_menu_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section1_menu__logo h2{
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+}
+.section1_menu__navbar a {
+        font-size: 14px;
+        font-family: 'Aleo', serif;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 40px;
+}
+.section1_menu__navbar a:hover{
+    border-bottom: 2px solid #e8e8e8;
+}
+/*----------------- Section2-------------------------------*/
+.section2 {
+    background: #f2f2f5 url(../img/Rectangle.jpg) no-repeat center center;
+    display: block;
+    background-size: cover;
+    min-height: 100%;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+}
+.section2_box{
+    display: flex;
+}
+.section2_left{
+    width: 50%;
+    padding-right: 30px;
+}
+.section2_left h2{
+        font-size: 36px;
+        font-family: "Aleo";
+        color: rgb(255, 255, 255);
+        text-align: left;
+        margin-top: 80px;
+}
+.section2_left p{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        color: rgb(232, 232, 232);
+        line-height: 1.625;
+        text-align: left;
+}
+.section2_left_btn{
+    text-align: left;
+}
+.section2_left_btn a{
+    display: block;
+        background-color: rgb(84, 116, 253);
+        width: 225px;
+        height: 60px;
+            font-size: 16px;
+            font-family: "Aleo";
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            padding: 20px 35px;
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+}
+.section2_left_btn a:hover{
+    background-color: #87c4f2;
+    cursor: pointer;
+}
+.section2_right{
+    width: 50%;
+}
+.section2_right_box .image2{
+margin-left: 125px;
+}
+
+/*----------------- Section3-------------------------------*/
+
+.section3{
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+.section3_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3_box_block a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+        font-size: 36px;
+        font-family: "Aleo";
+        color: rgb(232, 232, 232);
+        line-height: 0.722;
+        text-align: center;
+}
+.section3_box_block a svg{
+    margin-bottom: 30px;
+}
+.section3_box_block a:hover{
+    color: #5474fd;
+}
+/*----------------- Section4-------------------------------*/
+.section4{
+    background: #f2f2f5 url(../img/section4.jpg) no-repeat center center;
+    display: block;
+    background-size: cover;
+    min-height: 100%;
+    padding-top: 230px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.section4_left{
+    padding: 40px 30px;
+        background-color: rgb(35, 35, 35);
+        opacity: 0.902;
+        width: 500px;
+        text-align: left;
+}
+.section4_left span{
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(232, 232, 232);
+}
+.section4_left h2{
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+}
+.section4_left p{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(232, 232, 232);
+        line-height: 1.6em;
+}
+.section4_left a{
+    display: block;
+    margin-top: 45px;
+        background-color: rgb(84, 116, 253);
+        width: 225px;
+        height: 60px;
+            font-size: 16px;
+            font-family: "Aleo";
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            padding: 20px 60px;
+}
+.section4_left a:hover{
+    background-color: #87c4f2;
+}
+
+/*----------------- Section5-------------------------------*/
+.section5{
+    background: #f2f2f5 url(../img/section5.jpg) no-repeat center center;
+    display: block;
+    background-size: cover;
+    min-height: 100%;
+    padding-top: 230px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.section5_right{
+    float: right;
+   /* margin-left: 50%;*/
+    padding: 40px 30px;
+        background-color: rgb(35, 35, 35);
+        opacity: 0.902;
+        width: 500px;
+        text-align: left;
+}
+.section5_right span{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(232, 232, 232);
+}
+.section5_right h2{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.section5_right p{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(232, 232, 232);
+    line-height: 1.6em;
+}
+.section5_right a{
+display: block;
+margin-top: 45px;
+    background-color: rgb(84, 116, 253);
+    width: 225px;
+    height: 60px;
+        font-size: 16px;
+        font-family: "Aleo";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px 60px;
+}
+.section5_right a:hover{
+    background-color: #87c4f2;
+}
+/*----------------- Section6-------------------------------*/
+.section6{
+    background: #f2f2f5 url(../img/section6.jpg) no-repeat center center;
+    display: block;
+    background-size: cover;
+    min-height: 100%;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+.section6 h2{
+        font-size: 36px;
+        font-family: "Aleo";
+        color: rgb(255, 255, 255);
+        text-align: center;
+}
+.section6_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        background-color: rgb(51, 51, 51);
+        height: 284px;   
+}
+.section6_box_text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section6_box_text h2{
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(254, 254, 254);
+        text-transform: uppercase;
+        text-align: left;
+}
+.section6_box_text p{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1.6em;
+        text-align: left;
+       
+}
+
+/*----------------- footer-------------------------------*/
+footer{
+        background-color: rgb(35, 35, 35);
+        padding-top: 117px;
+        padding-bottom: 50px;
+        text-align: center;
+}
+footer h2{
+        font-size: 24px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .14em;
+}
+footer p{
+        font-size: 16px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        letter-spacing: .1em;
+}
+.footer_icons{
+    margin-top: 30px;
+}
+.footer_icons a{
+    padding: 0 10px;
+    font-size: 16px;
+    color: #e8e8e8;
+}
+.footer_icons a:nth-child(3){
+    color: #5474fd;
+}
+.footer_icons a:hover{
+    color: #87c4f2;
+}
+
